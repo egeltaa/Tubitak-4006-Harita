@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tübitak 4006 Edebi Köşeler Haritası</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="Tasarım.css">
+</head>
+<body>
+<div class="container">
+    <div id="sidebar">
+        <!-- Liste Görünümü -->
+        <div id="list-view">
+            <h2>Yerler</h2>
+            <div id="location-list"></div>
+        </div>
+
+        <div id="details-view">
+            <button onclick="listeyeDon()" class="back-button">← Geri Dön</button>
+            <div id="details-content"></div>
+        </div>
+    </div>
+
+    <!-- Harita Alanı -->
+    <div id="map"></div>
+</div>
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<!-- Senin JavaScript Dosyan -->
+<script src="Harita.js"></script>
+</body>
+</html>
