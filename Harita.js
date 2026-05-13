@@ -117,7 +117,7 @@ function detayGoster(id) {
         <img src="${yer.resim}" alt="${yer.ad}">
         <h3>${yer.ad}</h3>
         <p>${yer.aciklama}</p>
-        <a href="${yer.link}" target="_blank" class="btn">Detaylı Bilgi (Yan Sekme)</a>
+        <a href="${yer.link}" target="_blank" class="btn">Konumu Gör</a>
     `;
 
     map.flyTo(yer.koordinat, 18);
